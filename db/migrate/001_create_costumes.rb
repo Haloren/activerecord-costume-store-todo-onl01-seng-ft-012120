@@ -17,7 +17,10 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
       c.string :size
       # c.datetime :created_at
       # c.datetime :updated_at 
+<<<<<<< HEAD
       # c.timestamps 
+=======
+>>>>>>> d18c20d264ad846675cbd66e8c44142bc7bde174
       c.timestamp :created_at
       c.timestamp :updated_at
     end   
